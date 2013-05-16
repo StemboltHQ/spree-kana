@@ -1,0 +1,10 @@
+<% if I18n.locale == :ja %>
+  <p class="field" id=<%="#{address_id}firstnamekana" %>>
+    <%= form.label :firstnamekana, t(:first_name_kana) %><span class="required">*</span><br />
+    <%= form.text_field :firstnamekana, :class => 'required' %>
+  </p>
+  <p class="field" id=<%="#{address_id}lastnamekana" %>>
+    <%= form.label :lastnamekana, t(:last_name_kana) %><span class="required">*</span><br />
+    <%= form.text_field :lastnamekana, :class => 'required' %>
+  </p>
+<% end %>

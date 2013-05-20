@@ -2,5 +2,5 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 ja:
-  first_name_kana: First Name Kana
-  last_name_kana: Last Name Kana
+  first_name_kana: フリガナ(名)
+  last_name_kana: フリガナ(姓)
